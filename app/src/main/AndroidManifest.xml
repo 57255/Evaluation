@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Android="http://schemas.android.com/apk/res-auto"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.evaluation">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <application
+        android:name=".utils.MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Evaluation"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity.GenerateCodeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ForgetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AddScoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ScoreDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.TestPhoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.EditRankActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ExamDownEmployeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.EvaluationUpEmployeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.EvaluationSameEmployeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.EvaluationDownEmployeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ExamDownActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.EvaluationSameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.EvaluationDownActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.EvaluationUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PuzzleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.EditPhoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.EditPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PhoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/app_name" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.PhoneActivity">
+
+    <View
+        android:id="@+id/some_id"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/information_head"
+        android:clipToOutline="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/lxgwwenkai"
+        android:lineSpacingExtra="-1.2sp"
+        android:text="验证手机号"
+        android:textColor="@color/white"
+        android:textFontWeight="500"
+        android:textSize="21sp" />
+    <View
+        android:layout_width="43.68dp"
+        android:layout_height="40.04dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="120.18dp"
+        android:background="@drawable/bigheart"
+        android:clipToOutline="true" />
+    <View
+        android:layout_width="43.68dp"
+        android:layout_height="40.04dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="284.05dp"
+        android:layout_marginTop="191.18dp"
+        android:background="@drawable/bigheart"
+        android:clipToOutline="true" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout3"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+        app:counterEnabled="true"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:counterMaxLength="11"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:hint="手机号码"
+            android:fontFamily="@font/lxgwwenkai"
+
+            android:inputType="number"
+            android:id="@+id/telNumber"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout6"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="140dp"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:hint="验证码"
+            android:fontFamily="@font/lxgwwenkai"
+
+            android:inputType="number"
+            android:id="@+id/code"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/btn"
+        android:text="绑定"
+        android:fontFamily="@font/lxgwwenkai"
+
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/getCode"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textInputLayout6"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/btn"
+        android:text="获取验证码"
+        android:fontFamily="@font/lxgwwenkai"
+
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+</RelativeLayout>

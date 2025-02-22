@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@mipmap/home"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@mipmap/eva"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@mipmap/exam"
+        android:title="@string/title_notifications" />
+    <item
+        android:id="@+id/navigation_ranking"
+        android:icon="@mipmap/ranking"
+        android:title="@string/title_ranking" />
+    <item
+        android:id="@+id/navigation_person"
+        android:icon="@mipmap/set"
+        android:title="@string/title_persona" />
+
+</menu>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="NO."
+        android:textColor="#FFAB00"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/employeeNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="40dp"
+        android:text="4"
+        android:fontFamily="@font/lxgwwenkai"
+        android:textColor="#FF6D00"
+        android:textSize="20sp" />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/employee_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_marginStart="75dp"
+        android:layout_centerVertical="true"
+        >
+        <ImageView
+            android:id="@+id/employee_ava"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/logo"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:fontFamily="@font/lxgwwenkai"
+        android:id="@+id/employee_name"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="115dp"
+        android:gravity="center"
+        android:text="电厂员工"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/evaluation_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/lxgwwenkai"
+        android:textColor="#DD2C00"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/white"
+        android:layout_alignTop="@+id/employee_card"
+        android:layout_marginTop="50dp"
+        />
+</RelativeLayout>

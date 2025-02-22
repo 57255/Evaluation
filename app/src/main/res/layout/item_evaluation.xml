@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/evaluation_title"
+        android:textSize="20sp"
+        android:fontFamily="@font/lxgwwenkai"
+        android:textColor="@color/black"
+        />
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/choice_evaluation_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <View
+            android:id="@+id/choice_evaluation"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/choice"
+            />
+
+        <TextView
+            android:fontFamily="@font/lxgwwenkai"
+
+            android:id="@+id/evaluation_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:text="请选择分数"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <View
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/down_arrow"
+            android:layout_marginEnd="10dp"
+            />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="                      "
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/black_line"
+        />
+</LinearLayout>

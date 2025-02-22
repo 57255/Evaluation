@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".ui.Person.PersonFragment">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/settingwave" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ava"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:clipToOutline="true"
+            android:background="@drawable/ava"
+            android:src="@drawable/ic_plus_icon" />
+        <TextView
+            android:fontFamily="@font/lxgwwenkai"
+
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="45dp"
+            android:gravity="center"
+            android:lineSpacingExtra="5.2sp"
+            android:text="姓名"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:translationY="-2.6sp" />
+
+        <TextView
+            android:fontFamily="@font/lxgwwenkai"
+
+            android:id="@+id/card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="83dp"
+            android:lineSpacingExtra="-1.2sp"
+            android:text="工号"
+            android:textFontWeight="400"
+            android:textSize="16sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/profileCard"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="185dp"
+            android:layout_marginEnd="30dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:fontFamily="@font/lxgwwenkai"
+
+                android:id="@+id/text_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="16dp"
+                android:text="个人信息"
+                android:textColor="#2C3143"
+                android:textSize="16sp" />
+
+            <TextView
+                android:fontFamily="@font/lxgwwenkai"
+
+                android:id="@+id/description_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="48dp"
+                android:text="查看个人信息"
+                android:textColor="#747B96"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/right_profile"
+                android:layout_width="8.76dp"
+                android:layout_height="16.87dp"
+                android:layout_marginStart="292.66dp"
+                android:layout_marginTop="33.59dp"
+                android:background="@drawable/rightarrow" />
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="207dp"
+            android:background="@mipmap/profile"
+            android:elevation="8dp" />
+
+        <View
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="215dp"
+            android:background="@mipmap/user"
+            android:elevation="8dp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/telCard"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="299dp"
+            android:layout_marginEnd="30dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:fontFamily="@font/lxgwwenkai"
+
+                android:id="@+id/text_tel"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="16dp"
+                android:text="电话号码"
+                android:textColor="#2C3143"
+                android:textSize="16sp" />
+
+            <TextView
+                android:fontFamily="@font/lxgwwenkai"
+
+                android:id="@+id/description_tel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="48dp"
+                android:text="换绑电话号码"
+                android:textColor="#747B96"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/right_tel"
+                android:layout_width="8.76dp"
+                android:layout_height="16.87dp"
+                android:layout_marginStart="292.66dp"
+                android:layout_marginTop="33.59dp"
+                android:background="@drawable/rightarrow" />
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="321dp"
+            android:background="@mipmap/blue"
+            android:elevation="8dp" />
+
+        <View
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="329dp"
+            android:background="@mipmap/bgift"
+            android:elevation="8dp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/passwordCard"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="413dp"
+            android:layout_marginEnd="30dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:id="@+id/text_password"
+
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/lxgwwenkai"
+                android:text="密码"
+                android:textColor="#2C3143"
+                android:textSize="16sp" />
+
+            <TextView
+                android:fontFamily="@font/lxgwwenkai"
+
+                android:id="@+id/description_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="48dp"
+                android:text="修改密码"
+                android:textColor="#747B96"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/right_password"
+                android:layout_width="8.76dp"
+                android:layout_height="16.87dp"
+                android:layout_marginStart="292.66dp"
+                android:layout_marginTop="33.59dp"
+                android:background="@drawable/rightarrow" />
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="435dp"
+            android:background="@mipmap/yellow"
+            android:elevation="8dp" />
+
+        <View
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="443dp"
+            android:background="@mipmap/chart"
+            android:elevation="8dp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/scoreCard"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="522dp"
+            android:layout_marginEnd="30dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:id="@+id/text_score"
+
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/lxgwwenkai"
+                android:text="打分情况"
+                android:textColor="#2C3143"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/description_score"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="48dp"
+                android:fontFamily="@font/lxgwwenkai"
+                android:text="查看打分情况"
+                android:textColor="#747B96"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/right_score"
+                android:layout_width="8.76dp"
+                android:layout_height="16.87dp"
+                android:layout_marginStart="292.66dp"
+                android:layout_marginTop="33.59dp"
+                android:background="@drawable/rightarrow" />
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="549dp"
+            android:background="@mipmap/blue"
+            android:elevation="8dp" />
+
+        <View
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="557dp"
+            android:background="@mipmap/chain"
+            android:elevation="8dp" />
+
+        <Button
+            android:fontFamily="@font/lxgwwenkai"
+
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="642dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/btn"
+            android:text="退出登录" />
+
+    </RelativeLayout>
+</ScrollView>
+

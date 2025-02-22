@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:src="@drawable/third"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="15dp"
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_marginStart="75dp"
+        android:layout_centerVertical="true"
+        >
+        <ImageView
+            android:id="@+id/ranking_third_ava"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/logo"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:fontFamily="@font/lxgwwenkai"
+
+        android:id="@+id/ranking_third_employee"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="115dp"
+        android:gravity="center"
+        android:text="电厂员工3"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:fontFamily="@font/lxgwwenkai"
+
+        android:id="@+id/ranking_third_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="20dp"
+        android:text="88"
+        android:textColor="#DD2C00"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="25dp">
+    <TextView
+        android:fontFamily="@font/lxgwwenkai"
+
+        android:id="@+id/notice"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="这是一个很长很长很长很长很长很长很长很长很长很长很长很长的通知"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        />
+</LinearLayout>

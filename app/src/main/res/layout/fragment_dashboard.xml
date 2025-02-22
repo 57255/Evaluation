@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment"
+    android:background="@drawable/gradient_background">
+<View
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:background="@mipmap/plane"
+    android:layout_marginStart="30dp"
+    android:layout_marginTop="50dp"
+    />
+    <View
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:background="@mipmap/plane2"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="100dp"
+        />
+    <com.example.evaluation.utils.DialProgress
+        android:id="@+id/dial_progress_bar"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:padding="@dimen/medium"
+        app:animTime="1000"
+        app:arcColors="@array/gradient_arc_color"
+        app:arcWidth="10dp"
+        app:bgArcColor="#00FFFFFF"
+        app:dialIntervalDegree="3"
+        app:dialWidth="2dp"
+        app:hint="我的评分"
+        app:hintColor="#D2FFFFFF"
+        app:hintSize="15sp"
+        app:maxValue="100"
+        app:value="0"
+        app:startAngle="135"
+        app:unit="分"
+        app:unitColor="#D2FFFFFF"
+        app:unitSize="15sp"
+        app:valueColor="@color/white"
+        app:valueSize="50dp" />
+
+    <com.bolex.circleprogresslibrary.CircleProgressView
+        android:id="@+id/circleProgressView2"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        app:progressBackgroundColor="#00FFFFFF"
+        app:progressColor="@color/white"
+        app:progressHeadColor="@color/white"
+        app:progressHeadRadius="8dp"
+        android:fontFamily="@font/lxgwwenkai"
+
+        app:textColor="@color/white" />
+
+   <!-- <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignTop="@+id/dial_progress_bar"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="30dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="10dp">
+
+    </androidx.cardview.widget.CardView>-->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/evaluating_superior_card_view"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_alignTop="@+id/dial_progress_bar"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="380dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/up" />
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/lxgwwenkai"
+            android:text="测评上级"
+            android:textColor="@color/black" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/same_level_card_view"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_alignTop="@+id/dial_progress_bar"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="30dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/same" />
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/lxgwwenkai"
+            android:text="测评同级"
+            android:textColor="@color/black" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/evaluating_subordinate_card_view"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="30dp"
+        app:cardCornerRadius="10dp"
+        android:elevation="8dp"
+        android:layout_alignTop="@+id/same_level_card_view"
+        android:layout_marginTop="100dp"
+        >
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/down"
+            android:layout_gravity="end"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="21dp"
+            />
+        <TextView
+            android:fontFamily="@font/lxgwwenkai"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测评下级"
+            android:textColor="@color/black"
+            android:layout_gravity="start"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="25dp"
+            />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@android:color/white" /> <!-- 设置矩形填充色 -->
+    <corners android:radius="10dp" /> <!-- 设置圆角半径 -->
+    <stroke
+        android:width="2dp"
+    android:color="@android:color/black" /> <!-- 边框颜色 -->
+</shape>

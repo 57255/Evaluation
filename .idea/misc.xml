@@ -1,0 +1,101 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/java/com/example/evaluation/puzzle/src/main/res/layout/layout_slide_puzzle.xml" value="0.19623770842240273" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.179" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/ava.xml" value="0.2395" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/avatar.xml" value="0.259" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/bigheart.xml" value="0.259" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/black_line.xml" value="0.159" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/btn.xml" value="0.2535" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/btn_negative_nomal.xml" value="0.259" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/btn_negative_pressed.xml" value="0.259" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/camera.xml" value="0.259" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/choice.xml" value="0.2195" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/cloud.xml" value="0.258" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/cord.xml" value="0.259" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/down_arrow.xml" value="0.2195" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/gradient_background.xml" value="0.1905" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/ic_icons8_settings.xml" value="0.2535" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/ic_launcher_background.xml" value="0.179" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/ic_plus_icon.xml" value="0.227" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/ic_slide.xml" value="0.194" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/information_head.xml" value="0.259" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/line.xml" value="0.259" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/logindown.xml" value="0.2535" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/rectangle.xml" value="0.2535" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/rightarrow.xml" value="0.2535" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/rounded_gray_button.xml" value="0.227" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/selector_btn_negative.xml" value="0.259" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/settingwave.xml" value="0.2535" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/smallheart.xml" value="0.259" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/square.xml" value="0.2535" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/tab.xml" value="0.217" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/drawable/wave.xml" value="0.2535" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/activity_add_score.xml" value="0.2" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/activity_edit_password.xml" value="0.264" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/activity_edit_phone.xml" value="0.2" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/activity_edit_profile.xml" value="0.264" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/activity_edit_rank.xml" value="0.19623770842240273" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/activity_evaluation_down.xml" value="0.1" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/activity_evaluation_down_employee.xml" value="0.20820863616930313" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/activity_evaluation_same.xml" value="0.264" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/activity_evaluation_same_employee.xml" value="0.20820863616930313" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/activity_evaluation_up.xml" value="0.1" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/activity_evaluation_up_employee.xml" value="0.20820863616930313" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/activity_exam_down.xml" value="0.16" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/activity_exam_down_emplyee.xml" value="0.19623770842240273" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/activity_exam_same.xml" value="0.20820863616930313" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/activity_exam_same_employee.xml" value="0.264" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/activity_forget.xml" value="0.20820863616930313" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/activity_phone.xml" value="0.264" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/activity_puzzle.xml" value="0.20820863616930313" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/activity_score_detail.xml" value="0.20820863616930313" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/activity_test_phone.xml" value="0.20820863616930313" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/dialog_bottom.xml" value="0.20820863616930313" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/fragment_dashboard.xml" value="0.264" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/fragment_evaluation.xml" value="0.2" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/fragment_evaluation_detail.xml" value="0.20820863616930313" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/fragment_exam.xml" value="0.19623770842240273" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/fragment_exam_detail.xml" value="0.20820863616930313" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/fragment_fullscreen.xml" value="0.19623770842240273" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/fragment_notifications.xml" value="0.2" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/fragment_person.xml" value="0.1" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/fragment_ranking.xml" value="0.2" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/item_employee.xml" value="0.264" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/item_evaluation.xml" value="0.264" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/item_exam.xml" value="0.176" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/item_first.xml" value="0.1" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/item_nitice.xml" value="0.20735356990166737" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/item_notice.xml" value="0.2" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/item_ranking.xml" value="0.4" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/item_second.xml" value="0.20820863616930313" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/item_third.xml" value="0.176" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/layout_slide_puzzle.xml" value="0.20820863616930313" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/progress.xml" value="0.1" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/layout/test.xml" value="0.72" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25364583333333335" />
+        <entry key="..\:/Android Stdio/AndroidStdioProjects/Evaluation/app/src/main/res/xml/network_security_config.xml" value="0.10154617634768073" />
+      </map>
+    </option>
+  </component>
+  <component name="FindBugsConfigurable">
+    <option name="make" value="true" />
+    <option name="effort" value="default" />
+    <option name="priority" value="Medium" />
+    <option name="excludeFilter" value="" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="jbr-21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="SuppressionsComponent">
+    <option name="suppComments" value="[]" />
+  </component>
+</project>

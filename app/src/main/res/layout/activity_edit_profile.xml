@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <View
+            android:id="@+id/some_id"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/information_head"
+            android:clipToOutline="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="146dp"
+            android:layout_marginTop="58dp"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="-1.2sp"
+            android:text="个人信息"
+            android:fontFamily="@font/lxgwwenkai"
+
+            android:textColor="@color/white"
+            android:textFontWeight="500"
+            android:textSize="21sp" />
+        <View
+            android:layout_width="43.68dp"
+            android:layout_height="40.04dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="120.18dp"
+            android:background="@drawable/bigheart"
+            android:clipToOutline="true" />
+
+        <View
+            android:id="@+id/ava"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/avatar"
+            android:clipToOutline="true" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/camera"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="117.5dp"
+            android:clipToOutline="true"
+            android:src="@drawable/logo" />
+
+        <View
+            android:layout_width="43.68dp"
+            android:layout_height="40.04dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="284.05dp"
+            android:layout_marginTop="191.18dp"
+            android:background="@drawable/bigheart"
+            android:clipToOutline="true" />
+        <View
+            android:layout_width="25dp"
+            android:layout_height="23dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="320.0534dp"
+            android:layout_marginTop="110dp"
+            android:background="@drawable/smallheart"
+            android:clipToOutline="true" />
+        <View
+            android:layout_width="25dp"
+            android:layout_height="23dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="36.34dp"
+            android:layout_marginTop="230.52dp"
+            android:background="@drawable/smallheart"
+            android:clipToOutline="true" />
+
+        <TextView
+            android:fontFamily="@font/lxgwwenkai"
+
+            android:layout_width="311dp"
+            android:layout_height="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="266dp"
+            android:gravity="left|top"
+            android:lineSpacingExtra="1.6sp"
+            android:text="姓名"
+            android:textColor="@color/black"
+            android:textFontWeight="500"
+            android:textSize="12sp"
+            android:translationY="-0.8sp" />
+
+        <View
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="301dp"
+            android:background="@mipmap/na"
+            android:clipToOutline="true" />
+
+        <TextView
+            android:id="@+id/info_fullName"
+            android:layout_width="280dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="304dp"
+            android:gravity="left|top"
+            android:lineSpacingExtra="7.2sp"
+            android:text="姓名"
+
+            android:fontFamily="@font/lxgwwenkai"
+
+            android:textColor="@color/black"
+            android:textFontWeight="500"
+            android:textSize="14sp"
+            android:translationY="-3.6sp" />
+
+        <View
+            android:layout_width="311dp"
+            android:layout_height="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="322.09dp"
+            android:background="@drawable/line" />
+
+        <TextView
+            android:fontFamily="@font/lxgwwenkai"
+
+            android:layout_width="311dp"
+            android:layout_height="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="354dp"
+            android:gravity="left|top"
+            android:lineSpacingExtra="1.6sp"
+            android:text="联系方式"
+            android:textColor="@color/black"
+            android:textFontWeight="500"
+            android:textSize="12sp"
+            android:translationY="-0.8sp" />
+
+        <View
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="389dp"
+            android:background="@mipmap/tel"
+            android:clipToOutline="true" />
+
+        <TextView
+            android:fontFamily="@font/lxgwwenkai"
+
+            android:id="@+id/info_telephone"
+            android:layout_width="280dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="392dp"
+            android:gravity="left|top"
+            android:lineSpacingExtra="7.2sp"
+            android:text="电话号码"
+            android:textColor="@color/black"
+            android:textFontWeight="500"
+            android:textSize="14sp"
+            android:translationY="-3.6sp" />
+
+        <View
+            android:layout_width="311dp"
+            android:layout_height="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="410.09dp"
+            android:background="@drawable/line" />
+
+
+        <TextView
+            android:fontFamily="@font/lxgwwenkai"
+
+            android:layout_width="311dp"
+            android:layout_height="16dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="442dp"
+            android:gravity="left|top"
+            android:lineSpacingExtra="1.6sp"
+            android:text="工号"
+            android:textColor="@color/black"
+            android:textFontWeight="500"
+            android:textSize="12sp"
+            android:translationY="-0.8sp" />
+
+        <TextView
+            android:fontFamily="@font/lxgwwenkai"
+
+            android:id="@+id/info_employeeId"
+            android:layout_width="280dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="482dp"
+            android:gravity="left|top"
+            android:lineSpacingExtra="7.2sp"
+            android:text="工号"
+            android:textColor="@color/black"
+            android:textFontWeight="500"
+            android:textSize="14sp"
+            android:translationY="-3.6sp" />
+
+        <View
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="480dp"
+            android:background="@mipmap/card"
+            android:clipToOutline="true" />
+        <View
+            android:layout_width="311dp"
+            android:layout_height="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="500.09dp"
+            android:background="@drawable/line" />
+
+        <TextView
+            android:fontFamily="@font/lxgwwenkai"
+
+            android:layout_width="311dp"
+            android:layout_height="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="532dp"
+            android:gravity="left|top"
+            android:lineSpacingExtra="1.6sp"
+            android:text="岗位层级"
+            android:textColor="@color/black"
+            android:textFontWeight="500"
+            android:textSize="12sp"
+            android:translationY="-0.8sp" />
+
+        <TextView
+            android:id="@+id/info_employ"
+
+            android:layout_width="280dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="572dp"
+            android:fontFamily="@font/lxgwwenkai"
+            android:gravity="left|top"
+            android:lineSpacingExtra="7.2sp"
+            android:text="岗位层级"
+            android:textColor="@color/black"
+            android:textFontWeight="500"
+            android:textSize="14sp"
+            android:translationY="-3.6sp" />
+
+        <View
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="570dp"
+            android:background="@mipmap/brie"
+            android:clipToOutline="true" />
+
+        <View
+            android:layout_width="311dp"
+            android:layout_height="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="590.09dp"
+            android:background="@drawable/line" />
+
+        <TextView
+            android:layout_width="311dp"
+            android:layout_height="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="622dp"
+            android:fontFamily="@font/lxgwwenkai"
+            android:gravity="left|top"
+            android:lineSpacingExtra="1.6sp"
+            android:text="所属部门"
+            android:textColor="@color/black"
+            android:textFontWeight="500"
+            android:textSize="12sp"
+            android:translationY="-0.8sp" />
+
+        <TextView
+            android:id="@+id/infodep"
+
+            android:layout_width="280dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="662dp"
+            android:fontFamily="@font/lxgwwenkai"
+            android:gravity="left|top"
+            android:lineSpacingExtra="7.2sp"
+            android:text="所属部门"
+            android:textColor="@color/black"
+            android:textFontWeight="500"
+            android:textSize="14sp"
+            android:translationY="-3.6sp" />
+
+        <View
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="660dp"
+            android:background="@mipmap/dep"
+            android:clipToOutline="true" />
+
+        <View
+            android:layout_width="311dp"
+            android:layout_height="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="680.9dp"
+            android:background="@drawable/line" />
+
+        <TextView
+            android:layout_width="311dp"
+
+            android:layout_height="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="712dp"
+            android:fontFamily="@font/lxgwwenkai"
+            android:gravity="left|top"
+            android:lineSpacingExtra="1.6sp"
+            android:text="部门岗位"
+            android:textColor="@color/black"
+            android:textFontWeight="500"
+            android:textSize="12sp"
+            android:translationY="-0.8sp" />
+
+        <TextView
+            android:id="@+id/infoEmp"
+            android:layout_width="280dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="752dp"
+            android:fontFamily="@font/lxgwwenkai"
+            android:gravity="left|top"
+            android:lineSpacingExtra="7.2sp"
+            android:text="部门岗位"
+            android:textColor="@color/black"
+            android:textFontWeight="500"
+            android:textSize="14sp"
+            android:translationY="-3.6sp" />
+
+        <View
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="750dp"
+            android:background="@mipmap/p"
+            android:clipToOutline="true" />
+
+        <View
+            android:layout_width="311dp"
+            android:layout_height="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="770.09dp"
+            android:background="@drawable/line" />
+    </RelativeLayout>
+</ScrollView>
