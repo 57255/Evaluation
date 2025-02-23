@@ -64,9 +64,6 @@ class GenerateCodeActivity : AppCompatActivity(), View.OnClickListener {
                     val code = codeUtils.getCode()
                     if (inputCode == code) { // 查验输入的验证码是否正确
                         Toast.makeText(this, "验证码正确", Toast.LENGTH_SHORT).show()
-                        // 设置验证码动态变化
-                        val bitmap = codeUtils.createBitmap()
-                        imgCode.setImageBitmap(bitmap)
                         val intent = Intent(this, LoginActivity::class.java)
                         setResult(RESULT_OK, intent)
                         finish()

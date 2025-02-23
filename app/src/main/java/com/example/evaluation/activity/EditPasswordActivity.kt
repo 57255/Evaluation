@@ -62,6 +62,7 @@ class EditPasswordActivity : AppCompatActivity() {
                 return
             }
             val fixResponse: LoginResponse = EvaluationNetwork.changePassword(token,oldPassword,newPassword)
+            Log.d("fixResponse.code", fixResponse.code.toString())
             if(fixResponse.code==200){
                 "修改成功".showToast()
                 if(tel==1){

@@ -48,8 +48,7 @@ class LoginActivity : AppCompatActivity() {
         }
         binding.login.setOnClickListener {
             val intent = Intent(this,GenerateCodeActivity::class.java)
-            startActivityForResult(intent, RESULT_OK)
-            onActivityResult(RESULT_OK, RESULT_OK, intent)
+            startActivityForResult(intent, 1)
         }
         binding.inercut.setOnClickListener {
             val intent=Intent(this, ForgetActivity::class.java)
@@ -99,11 +98,6 @@ class LoginActivity : AppCompatActivity() {
     private suspend fun getInfo(token:String){
         try {
             val response: GetEmployeeInformation = EvaluationNetwork.getInfo(token,binding.CardNumber.text.toString())
-            if(response.code!=200){
-                CoroutineScope(Dispatchers.Main).launch {
-                    response.message.showToast()
-                }
-            }
             if(response.code==200){
                 RANK=response.data.rank1
                 if(response.data.phone==null){
@@ -116,14 +110,27 @@ class LoginActivity : AppCompatActivity() {
                     finish()
                 }
             }
+            else if(response.code==201){
+                CoroutineScope(Dispatchers.Main).launch {
+                    response.message.showToast()
+                }
+                val intent=Intent(this,EditPasswordActivity::class.java)
+                startActivity(intent)
+                finish()
+            }else {
+                CoroutineScope(Dispatchers.Main).launch {
+                    response.message.showToast()
+                }
+            }
         }catch(e: Exception) {
-            Log.e("TAG", "InformationActivity: ", e)
+            "网络错误".showToast()
+            Log.e("wQHfHX", "InformationActivity: ", e)
         }
     }
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         Log.d("LoginActivity", "onActivityResult called with requestCode: $requestCode, resultCode: $resultCode")
-        if (requestCode == RESULT_OK) {
+        if (resultCode == RESULT_OK) {
             Log.d("request","ok")
             CoroutineScope(Dispatchers.IO).launch {
                 login()

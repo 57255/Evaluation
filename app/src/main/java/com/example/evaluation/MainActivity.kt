@@ -92,7 +92,7 @@ class MainActivity : AppCompatActivity() {
                     hasPermission = true
                 }
             }
-            if (hasPermission) {
+            if (!hasPermission) {
                 // 跳转到系统设置权限页面，或者直接关闭页面，不让他继续访问
                 permissionDialog()
             } else {
