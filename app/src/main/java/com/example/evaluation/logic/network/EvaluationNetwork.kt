@@ -1,6 +1,7 @@
 package com.example.evaluation.logic.network
 
 import com.example.evaluation.logic.*
+import com.example.evaluation.utils.showToast
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.MultipartBody
 import okhttp3.RequestBody
@@ -77,6 +78,7 @@ object EvaluationNetwork {
                         RuntimeException("response body is null"))
                 }
                 override fun onFailure(call: Call<T>, t: Throwable) {
+                    "网络存在问题".showToast()
                     continuation.resumeWithException(t)
                 }
             })
