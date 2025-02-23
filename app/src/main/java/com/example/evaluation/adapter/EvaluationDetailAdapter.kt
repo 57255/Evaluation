@@ -52,9 +52,9 @@ class EvaluationDetailAdapter (private val evaluationList:ArrayList<Evaluation>,
                 ava=holder.ava
                 /*if(evaluation.avatar!=null&&evaluation.avatar!=""){
                     Log.d("EvaluationAdapter", "onBindViewHolder:${evaluation.avatar}")
-                    displayImage("http://110.41.60.28:81/avatar/"+evaluation.avatar,holder.ava)
+                    displayImage("http://10.48.27.15:81/avatar/"+evaluation.avatar,holder.ava)
         }*/
-        displayImage("http://110.41.60.28:81/avatar/"+evaluation.avatar,holder.ava)
+        displayImage("http://10.48.27.15:81/avatar/"+evaluation.avatar,holder.ava)
     }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) : RecyclerView.ViewHolder{
                 val view = LayoutInflater.from(parent.context)

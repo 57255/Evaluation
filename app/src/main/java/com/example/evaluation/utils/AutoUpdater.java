@@ -39,7 +39,7 @@ import javax.net.ssl.TrustManager;
 
 public class AutoUpdater {
     // 下载安装包的网络路径
-    private String apkUrl = "http://110.41.60.28:8083/";
+    private String apkUrl = "http://10.48.27.15:8083/";
     protected String checkUrl = apkUrl + "output-metadata.json";
 
     // 保存APK的文件名

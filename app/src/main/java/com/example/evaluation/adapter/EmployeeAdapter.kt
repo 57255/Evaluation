@@ -36,9 +36,9 @@ class EmployeeAdapter(private val employeeList:ArrayList<Employee>,private val t
         holder.name.text=employee.fullName
         holder.position.text=(position+1).toString()
         /*if(employee.avatar!=null){
-        displayImage("http://110.41.60.28:81/avatar/"+employee.avatar,holder.ava)
+        displayImage("http://10.48.27.15:81/avatar/"+employee.avatar,holder.ava)
         }*/
-        displayImage("http://110.41.60.28:81/avatar/"+employee.avatar,holder.ava)
+        displayImage("http://10.48.27.15:81/avatar/"+employee.avatar,holder.ava)
         if(employee.evaluated){
             holder.evaluated.text="已完成"
             holder.itemView.setOnClickListener {
