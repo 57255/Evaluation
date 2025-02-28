@@ -90,6 +90,13 @@ class LoginActivity : AppCompatActivity() {
                 CoroutineScope(Dispatchers.Main).launch {
                    getInfo(token)
                 }
+            } else if(response.code==201){
+                CoroutineScope(Dispatchers.Main).launch {
+                    response.message.showToast()
+                }
+                val intent=Intent(this,EditPasswordActivity::class.java)
+                startActivity(intent)
+                finish()
             }
         } catch (e: Exception) {
             Log.e("TAG", "login(): ", e)
@@ -110,14 +117,7 @@ class LoginActivity : AppCompatActivity() {
                     finish()
                 }
             }
-            else if(response.code==201){
-                CoroutineScope(Dispatchers.Main).launch {
-                    response.message.showToast()
-                }
-                val intent=Intent(this,EditPasswordActivity::class.java)
-                startActivity(intent)
-                finish()
-            }else {
+            else {
                 CoroutineScope(Dispatchers.Main).launch {
                     response.message.showToast()
                 }
