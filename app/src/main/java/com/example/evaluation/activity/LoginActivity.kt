@@ -94,6 +94,11 @@ class LoginActivity : AppCompatActivity() {
                 CoroutineScope(Dispatchers.Main).launch {
                     response.message.showToast()
                 }
+                val token=response.data
+                val prefs = getSharedPreferences("data",Context.MODE_PRIVATE)
+                val editor = prefs.edit()
+                editor.putString("token",token)
+                editor.apply()
                 val intent=Intent(this,EditPasswordActivity::class.java)
                 startActivity(intent)
                 finish()
