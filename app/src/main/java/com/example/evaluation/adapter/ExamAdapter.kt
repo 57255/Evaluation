@@ -101,7 +101,7 @@ class ExamAdapter(private val employeeList:ArrayList<ExamData>,private val conte
                 /*if(response.data!=null){
                     displayImage("http://110.41.60.28:81/avatar/"+response.data,ava)
                 }*/
-                displayImage("http://10.48.27.15:81/avatar/"+response.data,ava)
+                displayImage("http://10.48.27.15:8801/avatar/"+response.data,ava)
             }
         }catch(e: Exception) {
             Log.e("TAG", "InformationActivity: ", e)

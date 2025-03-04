@@ -76,7 +76,7 @@ class EvaluationAdapter(private val evaluationList:ArrayList<Evaluation>,private
                 /*if(evaluation.avatar!=null&&evaluation.avatar!=""){
                     displayImage("http://110.41.60.28:81/avatar/"+evaluation.avatar,holder.ava)
                 }*/
-                displayImage("http://10.48.27.15:81/avatar/"+evaluation.avatar,holder.ava)
+                displayImage("http://10.48.27.15:8801/avatar/"+evaluation.avatar,holder.ava)
                 Log.d("EvaluationAdapter", "onBindViewHolder:没问题")
                 return
             }
@@ -92,7 +92,7 @@ class EvaluationAdapter(private val evaluationList:ArrayList<Evaluation>,private
                 /*if(evaluation.avatar!=null&&evaluation.avatar!=""){
                     displayImage("http://110.41.60.28:81/avatar/"+evaluation.avatar,holder.ava)
                 }*/
-                displayImage("http://10.48.27.15:81/avatar/"+evaluation.avatar,holder.ava)
+                displayImage("http://10.48.27.15:8801/avatar/"+evaluation.avatar,holder.ava)
                 Log.d("EvaluationAdapter", "onBindViewHolder:没问题")
                 return
             }
@@ -108,7 +108,7 @@ class EvaluationAdapter(private val evaluationList:ArrayList<Evaluation>,private
                 /*if(evaluation.avatar!=null&&evaluation.avatar!=""){
                     displayImage("http://110.41.60.28:81/avatar/"+evaluation.avatar,holder.ava)
                 }*/
-                displayImage("http://10.48.27.15:81/avatar/"+evaluation.avatar,holder.ava)
+                displayImage("http://10.48.27.15:8801/avatar/"+evaluation.avatar,holder.ava)
                 Log.d("EvaluationAdapter", "onBindViewHolder:没问题")
                 return
             }
@@ -127,7 +127,7 @@ class EvaluationAdapter(private val evaluationList:ArrayList<Evaluation>,private
                     displayImage("http://110.41.60.28:81/avatar/"+evaluation.avatar,holder.ava)
 
                 }*/
-                displayImage("http://10.48.27.15:81/avatar/"+evaluation.avatar,holder.ava)
+                displayImage("http://10.48.27.15:8801/avatar/"+evaluation.avatar,holder.ava)
             }
         }
     }

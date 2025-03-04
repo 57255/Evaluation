@@ -54,7 +54,7 @@ class EvaluationDetailAdapter (private val evaluationList:ArrayList<Evaluation>,
                     Log.d("EvaluationAdapter", "onBindViewHolder:${evaluation.avatar}")
                     displayImage("http://10.48.27.15:81/avatar/"+evaluation.avatar,holder.ava)
         }*/
-        displayImage("http://10.48.27.15:81/avatar/"+evaluation.avatar,holder.ava)
+        displayImage("http://10.48.27.15:8801/avatar/"+evaluation.avatar,holder.ava)
     }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) : RecyclerView.ViewHolder{
                 val view = LayoutInflater.from(parent.context)

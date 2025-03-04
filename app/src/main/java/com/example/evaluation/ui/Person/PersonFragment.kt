@@ -342,7 +342,7 @@ class PersonFragment : Fragment() {
             }
             if(response.code==200){
                 if(response.data!=null){
-                    displayImage("http://10.48.27.15:81/avatar/"+response.data)
+                    displayImage("http://10.48.27.15:8801/avatar/"+response.data)
                     path=response.data
                 }
             }

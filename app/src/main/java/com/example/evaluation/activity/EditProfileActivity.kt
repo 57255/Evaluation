@@ -83,7 +83,7 @@ class EditProfileActivity : AppCompatActivity() {
                 binding.infoEmploy.text= response.data.rank1
                 binding.infoEmp.text=response.data.position
                 binding.infodep.text=response.data.department
-                displayImage("http://10.48.27.15:81/avatar/"+response.data.avatar)
+                displayImage("http://10.48.27.15:8801/avatar/"+response.data.avatar)
             }
         }catch(e: Exception) {
             Log.e("TAG", "InformationActivity: ", e)

@@ -112,7 +112,7 @@ class HomeFragment : Fragment() {
                 }
             }*/
             if(response.code==200){
-                displayImage("http://10.48.27.15:81/HomeCompanyImage/"+response.data[response.data.size-1],binding.companyImage)
+                displayImage("http://10.48.27.15:8801/HomeCompanyImage/"+response.data[response.data.size-1],binding.companyImage)
             }
         }catch(e: Exception) {
             Log.e("TAG", "InformationActivity: ", e)
@@ -147,12 +147,12 @@ class HomeFragment : Fragment() {
                 }
             }*/
             if(response.code==200){
-                displayImage("http://10.48.27.15:81/HomeEmployeeImage/"+response.data[response.data.size-1],binding.employeeImage1)
-                displayImage("http://10.48.27.15:81/HomeEmployeeImage/"+response.data[response.data.size-2],binding.employeeImage2)
-                displayImage("http://10.48.27.15:81/HomeEmployeeImage/"+response.data[response.data.size-3],binding.employeeImage3)
-                displayImage("http://10.48.27.15:81/HomeEmployeeImage/"+response.data[response.data.size-4],binding.employeeImage4)
-                displayImage("http://10.48.27.15:81/HomeEmployeeImage/"+response.data[response.data.size-5],binding.employeeImage5)
-                displayImage("http://10.48.27.15:81/HomeEmployeeImage/"+response.data[response.data.size-6],binding.employeeImage6)
+                displayImage("http://10.48.27.15:8801/HomeEmployeeImage/"+response.data[response.data.size-1],binding.employeeImage1)
+                displayImage("http://10.48.27.15:8801/HomeEmployeeImage/"+response.data[response.data.size-2],binding.employeeImage2)
+                displayImage("http://10.48.27.15:8801/HomeEmployeeImage/"+response.data[response.data.size-3],binding.employeeImage3)
+                displayImage("http://10.48.27.15:8801/HomeEmployeeImage/"+response.data[response.data.size-4],binding.employeeImage4)
+                displayImage("http://10.48.27.15:8801/HomeEmployeeImage/"+response.data[response.data.size-5],binding.employeeImage5)
+                displayImage("http://10.48.27.15:8801/HomeEmployeeImage/"+response.data[response.data.size-6],binding.employeeImage6)
             }
         }catch(e: Exception) {
             Log.e("TAG", "InformationActivity: ", e)
